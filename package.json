@@ -1,0 +1,22 @@
+{
+  "name": "card-feature-section",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "sass . --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlospgraciano/card-feature-section.git"
+  },
+  "author": "Carlos Polanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlospgraciano/card-feature-section/issues"
+  },
+  "homepage": "https://github.com/carlospgraciano/card-feature-section#readme",
+  "devDependencies": {
+    "sass": "^1.26.3"
+  }
+}
