@@ -1,3 +1,122 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #fafafa;
+  margin: 0 32px;
+}
+
+.summary {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.summary__title {
+  flex-basis: 100%;
+}
+.summary__title .content {
+  font-weight: 200;
+  font-size: 23px;
+  text-align: center;
+}
+.summary__powered {
+  flex-basis: 100%;
+  font-weight: 600;
+}
+.summary__powered .content {
+  color: #4c4e61;
+  font-weight: 600;
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.summary__description {
+  flex-basis: 100%;
+}
+.summary__description .content {
+  color: #a3a5ae;
+  font-weight: 200;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 35px;
+}
+.cards__card,
+.cards .card {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 25px 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+  background-color: white;
+  -webkit-box-shadow: 3px 6px 22px -10px #a3a5ae;
+  -moz-box-shadow: 3px 6px 22px -10px #a3a5ae;
+  box-shadow: 3px 6px 22px -10px #a3a5ae;
+}
+.cards__card__title,
+.cards .card__title {
+  flex-basis: 100%;
+  font-weight: 600;
+  color: #4c4e61;
+  font-size: 20px;
+}
+.cards__card__content,
+.cards .card__content {
+  flex-basis: 100%;
+}
+.cards__card__content .content,
+.cards .card__content .content {
+  font-weight: 200;
+  font-size: 12px;
+  color: #a3a5ae;
+}
+.cards__card__icon,
+.cards .card__icon {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+.cards__card__icon img,
+.cards .card__icon img {
+  width: 50px;
+  height: 50px;
+}
+.cards .supervisor {
+  border-top: 4px solid #45d3d3;
+}
+.cards .team-builder {
+  border-top: 4px solid #ea5353;
+}
+.cards .karma {
+  border-top: 4px solid #fcaf4a;
+}
+.cards .calculator {
+  border-top: 4px solid #549ef2;
+}
+
+.attribution {
+  font-weight: 200;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  font-weight: 200;
+  color: #3e52a3;
+}
 
 /*# sourceMappingURL=style.css.map */
