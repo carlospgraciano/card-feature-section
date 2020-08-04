@@ -1,0 +1,143 @@
+// Primary
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+// Neutral
+$veryDarkBlue: hsl(234, 12%, 34%);
+$grayishBlue: hsl(229, 6%, 66%);
+$veryLightGray: hsl(0, 0%, 98%);
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  margin: 0 32px;
+}
+
+.summary {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+
+  &__title {
+    flex-basis: 100%;
+    
+    .content {
+      font-weight: 200;
+      font-size: 23px;
+      text-align: center;
+    }
+  }
+
+  &__powered {
+    flex-basis: 100%;
+    font-weight: 600;
+
+    .content {
+      color: $veryDarkBlue;
+      font-weight: 600;
+      font-size: 23px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  &__description {
+    flex-basis: 100%;
+
+    .content {
+      color: $grayishBlue;
+      font-weight: 200;
+      text-align: center;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 35px;
+
+  &__card,
+  .card {
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 25px 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+    background-color: white;
+    -webkit-box-shadow: 3px 6px 22px -10px $grayishBlue;
+    -moz-box-shadow: 3px 6px 22px -10px $grayishBlue;
+    box-shadow: 3px 6px 22px -10px $grayishBlue;
+
+    &__title {
+      flex-basis: 100%;
+      font-weight: 600;
+      color: $veryDarkBlue;
+      font-size: 20px;
+    }
+
+    &__content {
+      flex-basis: 100%;
+
+      .content {
+        font-weight: 200;
+        font-size: 12px;
+        color: $grayishBlue;
+      }
+    }
+
+    &__icon {
+      flex-basis: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      padding: 20px 0;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .supervisor {
+    border-top: 4px solid $cyan;
+  }
+
+  .team-builder {
+    border-top: 4px solid $red;
+  }
+
+  .karma {
+    border-top: 4px solid $orange;
+  }
+
+  .calculator {
+    border-top: 4px solid $blue;
+  }
+}
+
+.attribution { 
+  font-weight: 200;
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    font-weight: 200;
+    color: hsl(228, 45%, 44%);
+  }
+}
